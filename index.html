@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Perfil de Investigador - Ana Robles</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
         }
 
         header {
@@ -16,11 +19,32 @@
         }
 
         h1 {
-            color: #333;
+            color: #2e6da4;
         }
 
         p {
-            color: #666;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2e6da4;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
         }
 
         .projects {
@@ -34,36 +58,74 @@
             margin: 10px;
             padding: 20px;
             border: 1px solid #ddd;
-            border-radius: 5px;
+            border-radius: 8px;
             text-align: center;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #2e6da4;
+            color: #fff;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Mi Página Web</h1>
-        <p>Bienvenido a mi sitio web. Aquí encontrarás información sobre mí y algunos de mis proyectos.</p>
+        <h1>Perfil de Investigador - Ana Robles</h1>
+        <p>Investigador joven.</p>
     </header>
 
-    <section class="projects">
-        <div class="project">
-            <h2>Proyecto 1</h2>
-            <p>Descripción breve del primer proyecto.</p>
-            <a href="#">Enlace al proyecto</a>
-        </div>
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Mi nombre es Ana Robles y ....</p>
+    </section>
 
-        <div class="project">
-            <h2>Proyecto 2</h2>
-            <p>Descripción breve del segundo proyecto.</p>
-            <a href="#">Enlace al proyecto</a>
-        </div>
+    <section id="education">
+        <h2>Educación</h2>
+        <p>Grado en Bioquímica, Universidad de Sevilla, 2019</p>
+        <p>Máster en Bioinformática, Universidad Autónoma de Barcelona, 2020</p>
+        <!-- Agrega más detalles sobre tu educación si es necesario -->
+    </section>
 
-        <!-- Puedes agregar más proyectos aquí -->
+    <section id="research-interests">
+        <h2>Áreas de Investigación</h2>
+        <ul>
+            <li>[Área de Investigación 1]</li>
+            <li>[Área de Investigación 2]</li>
+            <!-- Agrega más áreas de investigación -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#">Enlace al proyecto</a>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+                <a href="#">Enlace al proyecto</a>
+            </div>
+            <!-- Agrega más proyectos -->
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 Tu Nombre</p>
+        <p>© 2024 Ana Robles</p>
     </footer>
 
 </body>
