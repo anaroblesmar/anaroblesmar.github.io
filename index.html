@@ -1,132 +1,89 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Investigador - Ana Robles</title>
+    <meta name="description" content="Personal scientific research webpage">
+    <meta name="author" content="Your Name">
+    <title>Scientific Research - Your Name</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
             background-color: #f5f5f5;
             color: #333;
         }
-
         header {
+            background: #007acc;
+            color: white;
+            padding: 1rem 0;
             text-align: center;
-            margin-bottom: 20px;
         }
-
-        h1 {
-            color: #2e6da4;
-        }
-
-        p {
-            color: #555;
-        }
-
-        section {
-            margin-bottom: 30px;
-            background-color: #fff;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #2e6da4;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        .projects {
+        nav {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
+            background: #333;
         }
-
-        .project {
-            width: 30%;
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #ddd;
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #007acc;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
             border-radius: 8px;
-            text-align: center;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
-        .project:hover {
-            transform: scale(1.05);
-        }
-
         footer {
             text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #2e6da4;
-            color: #fff;
-            border-radius: 8px;
+            padding: 1rem;
+            background: #333;
+            color: white;
         }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Perfil de Investigador - Ana Robles</h1>
-        <p>Investigador joven.</p>
+        <h1>Your Name</h1>
+        <p>Researcher | Scientist | Knowledge Explorer</p>
     </header>
-
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Mi nombre es Ana Robles y ....</p>
+    <nav>
+        <a href="#bio">Biography</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="bio">
+        <h2>Biography</h2>
+        <p>Provide a brief overview of your academic background, professional experience, and research interests.</p>
     </section>
-
-    <section id="education">
-        <h2>Educación</h2>
-        <p>Grado en Bioquímica, Universidad de Sevilla, 2019</p>
-        <p>Máster en Bioinformática, Universidad Autónoma de Barcelona, 2020</p>
-        <!-- Agrega más detalles sobre tu educación si es necesario -->
+    <section id="research">
+        <h2>Research</h2>
+        <p>Highlight your current and past scientific projects, collaborations, and key achievements.</p>
     </section>
-
-    <section id="research-interests">
-        <h2>Áreas de Investigación</h2>
+    <section id="publications">
+        <h2>Publications</h2>
         <ul>
-            <li>[Área de Investigación 1]</li>
-            <li>[Área de Investigación 2]</li>
-            <!-- Agrega más áreas de investigación -->
+            <li><strong>Paper 1:</strong> <em>Title of the paper</em> - Published in [Scientific Journal] (2024)</li>
+            <li><strong>Paper 2:</strong> <em>Title of the paper</em> - Published in [Scientific Journal] (2023)</li>
         </ul>
     </section>
-
-    <section id="projects">
-        <h2>Proyectos Destacados</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#">Enlace al proyecto</a>
-            </div>
-            <div class="project">
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#">Enlace al proyecto</a>
-            </div>
-            <!-- Agrega más proyectos -->
-        </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
     </section>
-
     <footer>
-        <p>© 2024 Ana Robles</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
+
