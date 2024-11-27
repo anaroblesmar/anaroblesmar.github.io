@@ -49,6 +49,14 @@
             background: #333;
             color: white;
         }
+        .news-item {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +68,8 @@
         <a href="#bio">Biography</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
+        <a href="#blog">Blog</a>
+        <a href="#news">News</a>
         <a href="#contact">Contact</a>
     </nav>
     <section id="bio">
@@ -77,6 +87,36 @@
             <li><strong>Paper 2:</strong> <em>Title of the paper</em> - Published in [Scientific Journal] (2023)</li>
         </ul>
     </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Blog Post Title 1</h3>
+            <p>This is an example of a blog post where you can include images and videos.</p>
+            <img src="path/to/your-image.jpg" alt="Description of the image">
+            <video controls>
+                <source src="path/to/your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post Title 2</h3>
+            <p>Another post with some interesting insights and visuals.</p>
+            <img src="path/to/another-image.jpg" alt="Description of another image">
+        </div>
+    </section>
+    <section id="news">
+        <h2>News</h2>
+        <div class="news-item">
+            <h3>News Title 1</h3>
+            <p><strong>Date:</strong> November 15, 2024</p>
+            <p>Short description of the news. This can include information about a recent publication, a conference talk, or any other significant update.</p>
+        </div>
+        <div class="news-item">
+            <h3>News Title 2</h3>
+            <p><strong>Date:</strong> October 10, 2024</p>
+            <p>Another example of news. Provide relevant details about your scientific achievements or announcements.</p>
+        </div>
+    </section>
     <section id="contact">
         <h2>Contact</h2>
         <p>You can reach me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
@@ -86,4 +126,3 @@
     </footer>
 </body>
 </html>
-
